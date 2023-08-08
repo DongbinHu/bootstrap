@@ -10,18 +10,6 @@ import EventHandler from './dom/event-handler.js'
 import { enableDismissTrigger } from './util/component-functions.js'
 import { defineJQueryPlugin } from './util/index.js'
 
-/**
- * Constants
- */
-
-const NAME = 'alert'
-const DATA_KEY = 'bs.alert'
-const EVENT_KEY = `.${DATA_KEY}`
-
-const EVENT_CLOSE = `close${EVENT_KEY}`
-const EVENT_CLOSED = `closed${EVENT_KEY}`
-const CLASS_NAME_FADE = 'fade'
-const CLASS_NAME_SHOW = 'show'
 
 /**
  * Class definition
